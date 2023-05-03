@@ -6,7 +6,7 @@ import {useNavigate} from 'react-router-dom'
 function AboutUs() {
   let navi = useNavigate()
   let lets = ()=>{
-    navi("/game1")
+    navi("/login")
   }
   return (
     <div>
